@@ -1,0 +1,18 @@
+
+[
+  { "titulo": "Extraordinario (Wonder)", "genero": "Drama", "edadMin": 2, "edadMax": 12 },
+  { "titulo": "Shrek 2", "genero": "Comedia", "edadMin": 2, "edadMax": 12 },
+  { "titulo": "Encanto", "genero": "Musical", "edadMin": 2, "edadMax": 12 },
+
+  { "titulo": "El Club de los Poetas Muertos", "genero": "Drama", "edadMin": 13, "edadMax": 17 },
+  { "titulo": "Chicas Pesadas (Mean Girls)", "genero": "Comedia", "edadMin": 13, "edadMax": 17 },
+  { "titulo": "El Gran Showman", "genero": "Musical", "edadMin": 13, "edadMax": 17 },
+  { "titulo": "Enola Holmes", "genero": "Crimen", "edadMin": 13, "edadMax": 17 },
+  { "titulo": "Un Lugar en Silencio", "genero": "Terror", "edadMin": 13, "edadMax": 17 },
+
+  { "titulo": "Interestelar", "genero": "Drama", "edadMin": 18, "edadMax": 999 },
+  { "titulo": "Deadpool", "genero": "Comedia", "edadMin": 18, "edadMax": 999 },
+  { "titulo": "Bohemian Rhapsody", "genero": "Musical", "edadMin": 18, "edadMax": 999 },
+  { "titulo": "Pulp Fiction", "genero": "Crimen", "edadMin": 18, "edadMax": 999 },
+  { "titulo": "Shutter (Están entre nosotros)", "genero": "Terror", "edadMin": 18, "edadMax": 999 }
+]

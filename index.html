@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Recomendador de Películas</title>
+    <link rel="stylesheet" href="estilos.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;600&family=Playfair+Display:ital,wght@0,700;1,700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+    <div class="container">
+        <h1>¡Bienvenidos al cine de Jocelyn Hernández Morales!</h1>
+        
+        <h3>--- Menú ---</h3>
+
+        <p class="description">
+          Sabemos que cada estado de ánimo tiene una película perfecta. Ya sea que busques reír a carcajadas, un thriller que te mantenga al borde del asiento o una historia que te rompa el corazón, es tu brújula en el mundo del cine.  . Ingresa tu edad, selecciona el género que más te apasione y descubre nuestra sugerencia ideal para ti.
+        </p>
+
+        <div class="input-group">
+            <label for="edad">Edad: </label>
+            <input type="number" id="edad" min="2" value="20">
+        </div>
+
+        <div class="buttons">
+            <button onclick="recomendar('Drama')">Drama</button>
+            <button onclick="recomendar('Comedia')">Comedia</button>
+            <button onclick="recomendar('Musical')">Musical</button>
+            <button onclick="recomendar('Crimen')">Crimen</button>
+            <!-- Nuevo botón de Terror -->
+            <button onclick="recomendar('Terror')">Terror</button>
+        </div>
+
+        <div class="recommendation-section">
+            <h2>Nuestra recomendación:</h2>
+            <div class="recommendation" id="resultado">...</div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
